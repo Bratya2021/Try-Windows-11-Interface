@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+    height: 100vh;
+}
+.taskbar{
+    height: 47px;
+    background: #1a222e;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 110;
+}
+/* .strt{
+    left: 610px;
+    justify-self: flex-end;
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    height: 35px;
+} */
+.right{
+    justify-self: flex-end;
+    position: absolute;
+    right: 0;
+    height: 46px;
+}
+.startmenu{
+    position: absolute;
+    bottom: -630px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+.startmenu img{
+    border-radius: 6px;
+}
+
+@media (max-width: 850px) {
+    *{
+        padding: 100%;
+    }
+}
